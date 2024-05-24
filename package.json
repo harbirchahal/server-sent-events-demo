@@ -1,7 +1,11 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "name": "server-sent-events-demo",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.18.2"
   }
 }

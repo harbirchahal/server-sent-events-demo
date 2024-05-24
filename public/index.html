@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SSE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <h2>Server-Sent Events</h2>
+    <p>Check console for messages</p>
+    <div class="flex">
+      <button id="dog">Dog names</button>
+      <button id="cat">Cat names</button>
+    </div>
+    <script>
+      registerEventHandler("dog");
+      registerEventHandler("cat");
+    </script>
+  </body>
+</html>
