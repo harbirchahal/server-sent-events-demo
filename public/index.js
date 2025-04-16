@@ -1,5 +1,6 @@
 function subscribeEventSource(q) {
-	const url = `http://localhost:3000/stream?q=${q}`
+  const url = `http://localhost:3000/stream/${q}`
+	// const url = `http://localhost:3000/stream?q=${q}`
   const source = new EventSource(url);
 
   source.onopen = () => {
